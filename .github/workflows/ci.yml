@@ -20,7 +20,7 @@ jobs:
             
             - name: Install dependencies
               # Add the --omit=optional flag
-              run: npm ci --omit=optional
+              run: npm ci
               
             - name: Run tests
               run: npm run test
