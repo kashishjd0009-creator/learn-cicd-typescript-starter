@@ -4,7 +4,7 @@
   "main": "dist/main.js",
   "type": "module",
   "scripts": {
-    "test":"vitest --run",
+    "test": "vitest --run",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
@@ -36,5 +36,10 @@
     "tabWidth": 2,
     "semi": true,
     "singleQuote": false
+  },
+  "optionalDependencies": {
+    "@esbuild/darwin-arm64": "^0.27.4",
+    "@esbuild/linux-x64": "^0.27.4",
+    "@esbuild/win32-x64": "^0.27.4"
   }
 }
